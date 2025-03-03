@@ -1,0 +1,67 @@
+/* styles.css */
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #8B1E3F; /* Dark red background */
+    padding: 15px 40px; /* Extra padding for spacing */
+    display: flex;
+    justify-content: flex-start; /* Align to the left slightly */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 25px; /* Add spacing between items */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.nav-links .highlight {
+    color: #FFD700; /* Bright gold for emphasis */
+}
+
+.sub-menu {
+    background-color: #f7f7f7; /* Light background for submenu */
+    padding: 15px 40px; /* Align submenu with navbar */
+}
+
+.sub-menu-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.sub-menu-links li {
+    margin-right: 25px; /* Spacing between submenu items */
+}
+
+.sub-menu-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.sub-menu-links a:hover {
+    color: #8B1E3F; /* Matches the navbar color */
+}

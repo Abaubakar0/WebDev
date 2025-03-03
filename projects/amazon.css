@@ -1,0 +1,52 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   color: white;
+}
+
+.navbar{
+    background-color: black;
+    height: 50px;
+    position:fixed;
+    top: 0px;
+
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    margin-right:187px ;
+}
+button{
+    background-color: #f08804;
+    border-radius: 5px;
+}
+.boxa{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: rgb(67, 174, 167);
+}
+.cbox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+}
+
+#content{
+    height: 450px;
+}
+.dbox{
+    height: 100px;
+    background-color: #f08804;
+    width: 1wh;
+}

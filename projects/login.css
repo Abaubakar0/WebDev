@@ -1,0 +1,72 @@
+*{
+    background-color:#f2f4f7; 
+    color: black;    
+}
+
+.mainbox{
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+h2{
+    background-color: #ffffff;
+}
+.one{
+    background-color: #ffffff;
+}
+#email1{
+    height:33px ;
+    width:270px ;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid;
+}
+#password{
+    height:31px ;
+    width:270px ;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid;
+}
+p{
+    background-color:#ffffff;
+}
+a{text-decoration: none;}
+
+#login-button{
+    height: 39px;
+    width: 270px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+#log-fb{
+    background-color:#ffffff;
+    height:31px ;
+    width:270px ;
+    border-radius: 10px;
+    background-color: #1877f2;
+    color: #ffffff;
+    border: 1px solid;
+
+}
+
+#log-goggle{
+    background-color:#ffffff;
+    height:31px ;
+    width:270px ;
+    border-radius: 10px;
+    background-color:  #1877f2;
+    color: #ffffff;
+    border: 1px solid;
+
+}
+#forgot:hover{
+    font-size: 102%;
+}
+
+

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DMS.com</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 1%;
+            padding: 0%;
+            line-height: 1.5;
+             background: rgb(5, 78, 189)
+                
+         }
+        
+
+        nav{
+            background-color: brown;
+            color:white;
+            padding:2%;
+            text-align: center;
+            position: sticky;
+            top: 0%;
+            z-index: 1000;
+            
+        }
+        nav a{
+            color: white;
+            margin: 10px;
+            font-weight: bolder;
+            text-decoration: underline;
+        }
+        header{
+            width: 700px;
+            height: 340px;
+            color:rgb(255, 255, 255);
+            text-align: center;  
+            margin: auto
+         
+        }
+        #about {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            margin: 50px auto;
+            max-width: 1200px;
+            padding: 20px;
+
+        }
+
+        #about p{
+            text-align: left;
+            padding:0 20px;
+            flex:1;
+            order: 2;
+        }
+        #about h2{
+            
+        }
+        #about video{
+            order: 1;
+         width: 45%;
+         height: auto;
+         max-width:500px;
+         margin-right: 20px;
+         border-radius: 10px;
+         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        };
+        
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#admission">Admission</a>
+        <a href="#faculty">Faculty</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+
+    <header>
+        <h1>Excellence In Eductation</h1>
+        <p>Shaping the future, one student at a time.</p><br>
+        select your city 
+        <select name="city">
+            <option value="Bannu">Bannu</option>
+            <option value="ISLAMABAD">ISLAMABAD</option>
+            <option value="RAWALPINDI">RAWALPINDI</option>
+            <option value="MULTAN">MULTAN</option>
+            <option value="SUKKUR">SUKKUR</option>
+            <option value="KOHAT">KOOHAT</option>
+        </select>
+         
+    </header>
+
+    <section id="about" >
+        <h2>About Us</h2>
+        <p>
+            Established in Bannu in 1995, Dvisional Model School is today one of the largest private school networks across the globe. Having more than 500 schools with over 150,000 students, we continue to expand our reach in other countries including United Arab Emirates, Malaysia, Philippines, Oman and Saudi Arabia, to meet the demands for quality education as well as to ensure a strong global presence</p>
+            <video controls autoplay muted loop preload="metadata" width="600px">
+                <source src="WhatsApp Video 2024-12-23 at 12.03.04_b2813f78.mp4">
+            </video>
+    </section>
+    <section id="admission">
+        <h2>Admissions</h2>
+        <p>We welcome students from diverse backgrounds to join our school community. Our admission process is simple and transparent. Applications are open for the upcoming academic year. Be a part of a learning environment that promotes creativity, innovation, and excellence.</p>
+        <br>
+        <strong>Key Features:</strong>
+        <br>
+        <ul>
+            <li>Modern classrooms with advanced technology.</li>
+            <li>A wide range of extracurricular activities.</li>
+            <li>Comprehensive academic and career counseling.</li>
+
+        </ul>
+        <h3>Classrooms</h3>
+        <img src="covid-classrooms.webp" width="500px" alt="classrooms">
+        <img src="images.jpeg" width="515px" alt="classrooms">
+
+
+
+    </section>
+
+    <section id="faculty">
+        <h2>Our Faculty</h2>
+        <p>Meet the dedicated professionals who guide and inspire our students every day</p>
+        <div class="faculty">
+            <div class="faculty-member">
+                <img src="faculty1.jpg" alt="Dr. John Smith">
+                <h3>Dr. John Smith</h3>
+                <p><strong>Subject:</strong> Mathematics</p>
+                <p>Dr. Smith has over 15 years of teaching experience and specializes in algebra and calculus.</p>
+            </div>
+            <div class="faculty-member">
+                <img src="faculty2.jpg" alt="Ms. Jane Doe">
+                <h3>Ms. Jane Doe</h3>
+                <p><strong>Subject:</strong> Science</p>
+                <p>Ms. Doe is passionate about physics and chemistry, bringing hands-on experiments to the classroom.</p>
+            </div>
+            <div class="faculty-member">
+                <img src="faculty3.jpg" alt="Mr. Alex Brown">
+                <h3>Mr. Alex Brown</h3>
+                <p><strong>Subject:</strong> English</p>
+                <p>Mr. Brown focuses on literature and creative writing, encouraging students to explore their imagination.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? We’re here to help. Reach out to us through any of the following ways:</p>
+<strong>Email :</strong> info@school.com<br>
+<strong>Ph :</strong> +123 456 7890<br>
+
+<strong>Address :</Address> </strong>123 Learning Avenue, Education City
+    </section>
+
+
+
+    
+</body>
+</html>

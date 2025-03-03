@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: arial;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: brown;
+}
+
+.navbar{
+    height: 60px;
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+}
+#logo a{
+    text-decoration: none;
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#logo{
+    
+    padding-left: 190px;
+    display: inline-block;
+}
+#nav_links{
+    list-style: none;
+
+}
+
+
+#nav_links li {
+    display: inline-block;
+    padding: 30px;
+
+}
+button{
+    height: 30px;
+    width: 70px;
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+#lbutton{
+    margin-right: 80px;
+}
+#sbutton{
+    margin-left: 400px;
+}
+#nav_links{
+    position: relative;
+    left: 150px;
+    
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Registration Form</title>
+
+   <style>
+#field1 {
+    max-width: 300px;
+    background-color:#3498eb;
+    margin: auto;
+    height: 210px;
+}
+#field2 {
+    max-width: 300px;
+    background-color:#ebb134;
+    margin: auto;
+    height: 70px;
+}
+#field3{
+max-width: 300px;
+background-color: aqua;
+margin: auto;
+padding: px;
+}
+   </style>
+</head>
+
+<body>
+    <h1><center>Registration Form</center></h1>
+    <center><p>Please fill out this form with required information</p></center>
+    <form action="/action.php">
+    <fieldset id="field1">
+     <label for="name">Enter Your First Name:<input id="name"name="first name" type="text"required placeholder="Enter your First Name"></input></label>     
+
+    <br><br>
+
+     <label for="last-name">Enter Your Last Name:<input id="last-name" name="last-name" type="text" required placeholder="Enter your Last Name"></label>
+     <br><br>
+     <label for="email">Enter Your Email:<br>
+        <input id="email" name="email" type="email" required placeholder="Enter your Email"></label>
+
+     <br><br>
+     
+     <label for="new-password">Create New Password:</label>
+        <input id="new-password" name="new-password" type="password" required>
+    </fieldset>
+
+    <fieldset id="field2">
+     <legend>Account Type (required)</legend>
+
+     <label for="personal">Personal</label>
+     <input id="personal" name="acc-type" type="radio" value="Personal">
+     <br>
+     <label for="Business">Business</label>
+     <input id="Business" name="acc-type" type="radio" value="Business">
+     <br>
+     <label for="other">Other</label>
+     <input type="radio" id="other" name="acc-type" value="Other">
+    </fieldset>
+
+    <fieldset id="field3">
+        <label for="pic">Upload a profile picture</label>
+        <input type="file" id="pic" name="file" ><br><br>
+        <label for="dob">Date Of Birth:</label>
+        <input type="date" id="dob" name="Date of Birth">
+        <br>
+        <label for="City">Chose a City:</label>
+            <select>
+            <option>Peshawar</option>
+            <option selected>Bannu</option>
+            <option>Karachi</option>
+            <option>Swat</option>
+        </select>
+        <br><br>
+        <label>Which Sport Games Do You Like </label><br>
+        <input type="checkbox" id="cricket" name="game1" value="Cricket">
+        <label for="cricket">Cricket</label>
+        <br>
+        <input type="checkbox" id="football" name="game2" value="Fotball">
+        <label for="football">Football</label>
+        <br>
+        <input type="checkbox" id="hockey" name="game3" value="Hockey">
+        <label for="hockey">Hockey</label>
+        <br>
+        <input type="checkbox" id="badminton" name="game4" value="Badminton">
+        <label for="badminton">Badminton</label>
+        <br>
+        <input type="checkbox" id="basketball" name="game5" value="Basketball">
+        <label for="basketball">Basketball</label>
+        <br>
+        <input type="checkbox" id="volleyball" name="game6" value="Volleyball">
+        <label for="">Volleyball</label>
+        <br>
+        <input type="checkbox" id="golf" name="game7" value="Golf">
+        <label for="golf">Golf</label>
+        <br>
+        <h3>How Old Are You</h3>
+        <input type="radio" id="a" name="Age" value="Under 18">
+        <label for="a">Under 18</label>
+        <br>
+        <input type="radio" id="b" name="Age" value="18-20">
+        <label for="b">18-20</label><br>
+        <input type="radio" id="c" name="Age" value="21-24">
+        <label for="c">21-24</label>
+        
+
+    </fieldset>
+     
+        <label>Chose a Browser</label>
+        <input list="browsers">
+        <datalist id="browsers">
+             <option value="Edge">
+             <option value="Firefox">    
+             <option value="Chrome">  
+             <option value="Opera">   
+             <option value="Safari">
+        </datalist> 
+    
+     
+      <hr>
+      <label for="tel1">Tel:</label>
+      <input type="tel" id="tel1" name="telephone">
+<input type="file">
+<BR>
+    SELECT CITY :
+    <select name="city">
+        <option value="Bannu">Bannu</option>
+        <option value="ISLAMABAD">ISLAMABAD</option>
+        <option value="RAWALPINDI">RAWALPINDI</option>
+        <option value="MULTAN">MULTAN</option>
+        <option value="SUKKUR">SUKKUR</option>
+        <option value="KOHAT">KOHAT</option>
+    </select><br>
+    
+    <textarea spellcheck="true" rows="5" cols="50" placeholder="Type something here..."></textarea>
+   <br><center> <input type="button" value="Submit"></center>
+</form>
+<video src="" controls autoplay></video>
+</body>
+</html>
